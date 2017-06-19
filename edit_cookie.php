@@ -19,13 +19,13 @@
    <input class="btn" type="submit" value="Start cookie">
    </form>
 
-
+<p>
 <?php
 echo $_COOKIE['login_name'];
 echo '<br>';
 echo $_COOKIE['password'];
 ?>
-
+</p>
 
 
 </body>
