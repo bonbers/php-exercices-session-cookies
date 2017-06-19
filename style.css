@@ -1,0 +1,96 @@
+html {
+  background-image:url("./img/escheresque_ste.png");
+  min-height: 100%;
+}
+
+h1{
+  font-family: 'Muli', sans-serif;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+h2{
+  font-family: 'Muli', sans-serif;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+.session {
+  text-decoration: none;
+  color: #0BA54D;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+.session:hover {
+  color: red;
+}
+
+p{
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  text-shadow: 2px 2px black;
+}
+
+ul {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  text-shadow: 2px 2px black;
+}
+
+.donnee {
+  color: red;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+label {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 23px;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #0BA54D;
+  border: none;
+  color: black;
+  font-size : 15px;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 3px black;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+}
+
+.btn:hover{
+  text-align: center;
+  background-color: yellow;
+  border: none;
+  color: black;
+  font-size : 15px;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 3px black;
+  text-shadow: 2px 2px 2px black;
+}
+
+.box {
+  border: 1px solid black;
+  border-radius : 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 30px;
+}
