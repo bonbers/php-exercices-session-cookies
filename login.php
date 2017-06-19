@@ -1,10 +1,7 @@
 <?php
-$expire = 1*1*1;  // 1 an
-setcookie("login_name", $_POST['login'], time()+$expire);
-setcookie("password", $_POST['pwd'], time()+$expire);  // on l'envoi
-?>
-<?php
-	session_start();
+
+setcookie("login_name", $_POST['login']);
+setcookie("password", $_POST['pwd']);  // on l'envoi
 ?>
 
 <!DOCTYPE html>

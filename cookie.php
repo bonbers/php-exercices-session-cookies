@@ -1,8 +1,10 @@
 <?php
 
-setcookie("login_name", "test2");
-setcookie("password", "test3");  // on l'envoi
+$arthur = $_POST['login1'];
+$test = $_POST['pwd1'];
 
+setcookie("login_name", $arthur);
+setcookie("password", $test);  // on l'envoi
 
-header ('location : index.php');
+header("location: index.php");
 ?>

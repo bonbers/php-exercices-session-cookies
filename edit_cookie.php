@@ -12,10 +12,10 @@
 <form method="post" action="cookie.php">
    <h2>Modifier les cookies</h2>
    <label><u>Login :</u></label></br>
-   <input class="box" type="text" name="login">
+   <input class="box" type="text" name="login1">
    </br>
    <label><u>Mot de passe :</u></label></br>
-   <input class="box" type="password" name="pwd"></br>
+   <input class="box" type="password" name="pwd1"></br>
    <input class="btn" type="submit" value="Start cookie">
    </form>
 
